@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="PR4CSS.css">
+</head>
+<body>
+<h1 class="gray">Registration</h1>
+<h3 class="green">Account Details</h3>
+<form>
+<label for="email">Email* <input id="email" type="email" required></label>
+<label for="remail">Repeat mail* <input id="remail"type="email" required></label><br>
+<label for="pass">Password* <input id="pass" type="password" required></label>
+<label for="rpass">Repeat password* <input id="pass" type="password" required></label>
+<label>*Obligatory fields</label>
+<div class="whole">
+<div class="left">
+<h3 class="green">Personal Details</h3>
+<table>
+<tr>
+<td><label for="name" class="goright">Name *</label></td>
+<td><input id="name"type="text" required></td>
+</tr>
+<tr>
+<td><label for="no" class="goright">Phone *</label></td>
+<td><input id="no" type="tel"required></td>
+</tr>
+<tr>
+<td><label for="street" class="goright gray">Street</label></td>
+<td><input id="street" type="text"></td>
+</tr>
+<tr>
+<td><label for="city" class="goright">City *</label></td>
+<td><input id="city" type="text" required></td>
+</tr>
+<tr>
+<td><label for="country" class="goright">Country *</label></td>
+<td>
+<select name="country" id="country" required>
+<option value=""> </option>
+<option value="">India</option>
+<option value="">US</option>
+<option value="">UK</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label for="web" class="goright gray">Website </label></td>
+<td><input id="web" type="text" required value="http://"></td>
+</tr>
+</table>
+</div>
+<div class="right">
+<h3 class="green">Further Information</h3>
+<table>
+<tr>
+<td><label for="gender">Gender *</label></td>
+<td>
+<input type="radio" name="gender" id="male" required>Male
+<input type="radio" name="gender" id="female" required>Female
+</td>
+</tr>
+<tr>
+<td><label for="">Birthdate *</label></td>
+<td>
+<select name="num" id="num">
+<option>01</option>
+<option>02</option>
+<option>03</option>
+<option>04</option>
+<option>05</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+<option>22</option>
+<option>23</option>
+<option>24</option>
+<option>25</option>
+<option>26</option>
+<option>27</option>
+<option>28</option>
+<option>29</option>
+<option>30</option>
+<option>31</option>
+</select>
+<select name="month" id="month">
+<option>January</option>
+<option>February</option>
+<option>March</option>
+<option>April</option>
+<option>May</option>
+<option>June</option>
+<option>July</option>
+<option>Augest</option>
+<option>September</option>
+<option>October</option>
+<option>November</option>
+<option>December</option>
+</select>
+<input type="tel" name="" id="" >
+</td>
+</tr>
+<tr>
+<td><label for="nationality">Nationality*</label></td>
+<td>
+<select name="nation" id="" required>
+<option></option>
+<option>India</option>
+<option>China</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label for="child">Children*</label></td>
+<td><input type="checkbox" name="" id=""></td>
+</tr>
+</table>
+<h3 class="gray" id="back">HELPFUL INFORMATION</h3>
+<p class="gray" id="helpinfo">Here comes some explaining text,Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto earum aperiam iure. Lorem ipsum, dolor sit amet consectetur adipisicing elit. At et culpa delectus. Consequatur expedita placeat fugiat temporibus pariatur? Et, eos.</p>
+</div>
+</form>
+</div>
+<div class="whole">
+<div class="aadi">
+<h3 class="green">Terms and Mailing</h3><br>
+<input type="checkbox" name="Term1" id=""> <label for="term1">* I accept the Terms and Conditions</label><br>
+<input type="checkbox" name="term2" id=""> <label for="term2">I want to receive personalized offers by your site</label><br>
+<input type="checkbox" name="term3" id=""> <label for="term3">Allow partners to send me personalized offers and related services</label><br></div>
+<div class="aadi2">
+<input type="submit" value="Register>>" id="btn">
+</div>
+</div>
+</body>
+</html>

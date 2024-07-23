@@ -1,0 +1,46 @@
+.gray{
+color: gray;
+}
+.green{
+color: limegreen;
+}
+.label{
+margin-left: 20px;
+}
+.goright{
+text-align: right;
+}
+.whole{
+display: flex;
+}
+.left{
+width: 50%;
+}
+.right{
+width: 50%;
+}
+.table{
+width: 100%;
+}
+#btn{
+background-image: -webkit-linear-gradient(green,greenyellow);
+padding: 15px 20px;
+border-radius: 10px;
+color: white;
+margin: 0px 50px;
+}
+#back{
+padding: 10px 0;
+background-color: rgba(230, 255, 140, 0.521);
+margin: 0 0;
+}
+.aadi{
+width: 50%;
+}
+.aadi2{
+width: 50%;
+}
+#helpInfo{
+margin: 0 0;
+background-color: rgba(230, 255, 140, 0.308);
+}
